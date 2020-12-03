@@ -3,24 +3,46 @@ body {
   color: #454545;
   margin: 0px;
   padding: 0px;
-  background-color: #f8f8f8;
-  background-image: url('bkgd2.png');
+  display: flex;
+  justify-content: center;
+  background: #8360c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .page {
-  width: 80%;
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
+
 .ball, .button {
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
 }
+
+.ball {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ball img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .answer {
   position:absolute;
-  width:14%;
+  width:16%;
   top:50%;
   left:50%;
   margin-top:-60px;
-  margin-left:-65px;
+  margin-left:-50px;
   font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #222;
   text-transform: uppercase;
