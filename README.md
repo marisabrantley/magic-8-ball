@@ -6,7 +6,6 @@ Create the classic Magic 8 Ball game using HTML, CSS, JavaScript, and jQuery.
 
 <img width="514" alt="Magic 8 Ball" src="https://user-images.githubusercontent.com/60168324/127259577-74e0ed39-8a6c-4b72-a5b3-775840e3d20f.png">
 
-I made it responsive with Flexbox and added a colorful gradient background.
 
 **How to Play:**
 
