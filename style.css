@@ -3,24 +3,42 @@ body {
   color: #454545;
   margin: 0px;
   padding: 0px;
-  background-color: #f8f8f8;
-  background-image: url('bkgd2.png');
+  background: #8360c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .page {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   max-width: 960px;
   margin: 0 auto;
+  padding-top: 100px;
 }
+
 .ball, .button {
   margin: 0 auto;
 }
+
+.ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ball img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .answer {
-  position:absolute;
-  width:14%;
-  top:50%;
-  left:50%;
-  margin-top:-60px;
-  margin-left:-65px;
+  position: absolute;
+  width:13%;
+  margin-bottom: 7%;
+  margin-left: 3%;
   font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
   color: #222;
   text-transform: uppercase;
@@ -38,9 +56,11 @@ body {
 }
 
 header {
-  padding-top: 0.25em;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
+
 header span {
   font-size: 60px;
   color: #f16059;
@@ -55,4 +75,15 @@ footer p {
   text-align: center;
   text-transform: uppercase;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .answer {
+    position: absolute;
+    width: 13%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+    font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+  }
 }
