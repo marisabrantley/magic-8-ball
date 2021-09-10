@@ -3,16 +3,10 @@ body {
   color: #454545;
   margin: 0px;
   padding: 0px;
-<<<<<<< HEAD
   background: #8360c3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-=======
-  background: #7F7FD5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
->>>>>>> cbc912ce60ab6950be0e6e9698385e2e1952e526
-}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -33,25 +27,10 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-=======
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
->>>>>>> cbc912ce60ab6950be0e6e9698385e2e1952e526
-}
 
 .ball img {
   width: 100%;
-<<<<<<< HEAD
   margin: 0 auto;
-=======
-  margin: 0;
->>>>>>> cbc912ce60ab6950be0e6e9698385e2e1952e526
-  padding: 0;
-}
 
 .answer {
   position: absolute;
